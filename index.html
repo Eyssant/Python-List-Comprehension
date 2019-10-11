@@ -60,20 +60,12 @@ MyTuple = (1, 2, 3, 4, 5, 6, 7, 8)
 NewList = [i for i in MyTuple if i%2!=0]
 print(NewList)
 
-#creating list of lists
-MyList = [1, 2, 3, 4, 5]
-NewList = [[i, i*i, i*i*i] for i in MyList]
-print(NewList)
 
 #creating list of characters (in uppercase) of a string 
 MyString = 'Hello'
 NewList = [i.upper() for i in MyString]
 print(NewList)
 
-#creating a list containing element length of a set
-MySet= ('marry', 'john', 'sam', 'jo')
-NewList = [len(i) for i in MySet]
-print(NewList)
 </pre>
 <br>
 
@@ -83,30 +75,10 @@ print(NewList)
 
 [1, 3, 5, 7]
 
-[[1, 1, 1], [2, 4, 8], [3, 9, 27], [4, 16, 64]]
-
 ['H', 'E', 'L', 'L', 'O']
 
-[5, 4, 3, 2]
 </pre>
 <br>
-<h3>Example: Find standard deviation using List Comprehension</h3>
-<p>List Comprehension technique can be leveraged to find out standard deviation of all elements of the list. Please see the example below:</p>
-  
-<pre class="prettyprint notranslate">
-MyList = [1,2,3,4,5]
-mean = sum(MyList)/len(MyList)
-stddev = sum([((i - mean)**2/len(MyList))**0.5 for i in MyList])
-print(stddev)
-</pre>
-
-<br>
- 
-<h3>Output</h3>     
-<pre class="prettyprint notranslate">
-2.683
-</pre>
-
 
 <h2>List Comprehension and transformation function</h2>
 <p>In above examples, transformation function is defined inside the list comprehension syntax. Alternatively, it can be defined outside of it, which gives the user to create more innovative function.</p>

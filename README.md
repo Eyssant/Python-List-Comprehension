@@ -148,7 +148,6 @@ print(NewList)
   <li><a href="https://www.youtube.com/watch?v=1HlyKKiGg-4">YouTube: List Comprehension</a></li>
   </ul>
 </div>
-<hr class="m-0 mt-3">
 </div> 
 <div class="col-lg-2 d-none d-lg-block"> 
 

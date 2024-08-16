@@ -4,7 +4,6 @@
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
-<title>Python List Comprehension</title>
 <meta name="keywords" content="Python List Comprehension"/>
 <meta name="Description" content="Python List Comprehension"/>
       

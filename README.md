@@ -22,7 +22,7 @@
 <div class="col-lg-8 p-2 bg-white" style=" box-shadow: 10px 0 5px -2px hsl(240, 20%, 93%);"> 
 
 
-<h1><strong>Python - List Comprehension</strong></h1><hr class="m-1">
+<h1><strong>Python - List Comprehension</strong></h1>
 
 <p>List comprehension is a technique of creating new lists using other iterable and in fewer lines of codes. The iterable object which can be used in this technique can be any data structure like list, tuple, set, string and dictionary, etc. An iterable created by using range() function can also be used here.</p>
 <p>The syntax used in list comprehension generally contains three segments:<p>
